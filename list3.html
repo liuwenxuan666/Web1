@@ -4,69 +4,81 @@
 		<title></title>
 		<meta charset="UTF-8">
 	</head>
-	<body>
 	<style>
-	a:link { color:red;text-decoration: none; } 
-    a:visited { color:green;text-decoration: none; } 
-    a:hover { color:red;text-decoration: none; } 
-    a:active { color:red;text-decoration: none; } 
+		*{
+				padding:0;
+				margin:0;
+				border:0;
+			}
+			a{
+				color:grey;
+				text-decoration:none;
+			}
+			li{
+				list-style-type:none;
+			}
+			body{
+				background-image:url(image/bg.gif);
+				background-repeat:no-repeat;
+				background-position:top center;
+			}
+			.top{
+				background-image:url(image/banner.jpg);
+				background-repeat:no-repeat;
+				background-position:top center;
+				width:1005px;
+				margin:0 auto;
+				height:350px;
+			}
+		.top ul li a:link{color:#FFFFFF;}
+			.top ul li a:visited{color:#FFFFFF;}
+			.top ul li a:hover{color:#7FFF00;}
+			.top ul li a:active{color:#7FFF00;}
+			.top .cur:link{color:#7FFF00;}
+			.top .cur:visited{color:#7FFF00;}
+			.top .search:link{color:#EEAD0E;}
+			.top .search:visited{color:#EEAD0E;}
+			.top ul  li{
+				display:inline;
+				padding:15px;
+				line-height:60px;
+			}
+			#mybody{
+				width:1005px;
+				margin:0 auto;
+				line-height:2em;
+			}
     </style>
+	<body>
+	<div id="mybody">
 		<table width="100%">
-			<!--页头部分-->
 			<tr>
-				<table width="100%" height="250px" background="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/bg.gif?raw=true">
-				<tr height="50px">
-					<td ></td>
-					<td rowspan="2">
-						<table background="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/banner.jpg?raw=true" height="300px" width="950px" align="center">
-							<tr>
-								<td align="center">
-									<font color="white">
-					<a href="#">首页</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">学校概况</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">规章制度</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">德育网</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">教研网</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">名师风采</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">高考专栏</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">图书馆</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">校友会</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">河中论坛</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">查询系统</a>
-					                  </font>
-								</td>
-							</tr>
-							<tr>
-								<td></td>
-							</tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-						</table>
-					</td>
-					<td ></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-				</tr>
-				</table>
+				<div class="top">
+			<!--页头部分-->
+			    <ul>
+					<li><a href="#" class="cur">首页</a></li>
+					<li><a href="#">学校概况</a></li>
+					<li><a href="#">规章制度</a></li>
+					<li><a href="#">德育网</a></li>
+					<li><a href="#">教研网</a></li>
+					<li><a href="#">名师风采</a></li>
+					<li><a href="#">高考专栏</a></li>
+					<li><a href="#">图书馆</a></li>
+					<li><a href="#">校友会</a></li>
+					<li><a href="#">河中论坛</a></li>
+					<li><a href="#" class="search">查询系统</a></li>
+				</ul>
+		        </div>
 			</tr>
 			<!--页面主体部分-->
 			<tr>
 				<table align="center"  cellpadding="0" width="950px">
 					<tr>
 						<td>
-							<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/pic.jpg?raw=true" width="200px"/>
+							<img src="image/pic.jpg" width="200px"/>
 						</td>
 						<td>
-							<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/news_pic_title.gif?raw=true" height="45px"/>
+							<img src="image/news_pic_title.gif" height="45px"/>
 							<br/>
 							<font size="3">
 							<ul>
@@ -82,7 +94,7 @@
 							</font>	
 						</td>
 						<td>
-							<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/notice_title.gif?raw=true" height="45px"/>
+							<img src="image/notice_title.gif" height="45px"/>
 							<br/>
 							<font size="3">
 							<ul>
@@ -97,10 +109,10 @@
 				<table align="center" width="950px">
 					<tr>
 						<td>
-							<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/news_jy_title.gif?raw=true" width="400px"/>
+							<img src="image/news_jy_title.gif" width="400px"/>
 						</td>
 						<td>
-							<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/news_dy_title.gif?raw=true" width="400px"/>
+							<img src="image/news_dy_title.gif" width="400px"/>
 						</td>
 					</tr>
 					<tr>
@@ -108,7 +120,7 @@
 							<table>
 								<tr>
 									<td>
-										<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/news_jy_pic.gif?raw=true"/>
+										<img src="image/news_jy_pic.gif"/>
 									</td>
 									<td>
 									<font size="3">
@@ -141,7 +153,7 @@
 							<table>
 								<tr>
 									<td>
-										<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/news_dy_pic.gif?raw=true"/>
+										<img src="image/news_dy_pic.gif"/>
 									</td>
 									<td>
 										<font size="3">
@@ -175,7 +187,7 @@
 				<table align="center" width="950px" cellpadding="20">
 					<tr>
 						<td>
-							<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/gnq.gif?raw=true" alt="热点区域" usemap="#Map4"/>
+							<img src="image/gnq.gif" alt="热点区域" usemap="#Map4"/>
 							<map name="Map4" id="Map4">
 								<area shape="rect" coords="144,133,250,240" href="#"/>
 								<area shape="rect" coords="12,129,119,239" href="#"/>
@@ -184,20 +196,21 @@
 							</map>
 						</td>
 						<td>
-							<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/tup.gif?raw=true" width="190px"/>
+							<img src="image/tup.gif" width="190px"/>
 						</td>
 						<td>
-							<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/tup.gif?raw=true" width="190px"/>
+							<img src="image/tup.gif" width="190px"/>
 						</td>
 						<td>
-							<img src="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/tup.gif?raw=true" width="190px"/>
+							<img src="image/tup.gif" width="190px"/>
 						</td>
 					</tr>
 				</table>
 			</tr>
+		</div>
 			<!--页脚部分-->
 			<tr>
-				<table background="https://github.com/liumengyi2016/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/foot_bg.gif?raw=true" width="100%">
+				<table background="image/foot_bg.gif" width="100%">
 					<tr></tr>
 				    <tr align="center" height="50px">
 				    <td><font color="white">Copyright@2008-2016&nbsp;http://www.***.com&nbsp;ALL&nbsp;Rights&nbsp;Reserved&nbsp;网站备案：冀ICP备000000000号</font></td>
