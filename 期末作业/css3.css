@@ -1,0 +1,92 @@
+*{margin:0px;padding:0px;}
+ul{text-align: center;font-style: italic;}
+ul,li{list-style:none;padding:3px;}
+li strong{color: pink;}
+a{text-decoration: none;}
+a:link{color:#00FFFF;}
+a:visited{color:orange;}
+a:hover{color:#5B00AE;}
+a:active{color:red;}
+p{color: #80FFFF;font-style: italic;text-indent: 2em;
+}
+ul li{display: inline;}
+body{background-color:black;}
+.top1{border:2px solid none;
+background: url(image/NBA0.jpg); width: 2180px;
+height: 290px;margin: 2px;padding: 2px;
+background-color: #460046;}
+#top2{          background-color: #28004D;
+				background-repeat:no-repeat;
+				height:40px;width: 2200px;}
+#main{height:400px;border: 2px solid none;
+background-color:#5151A2 ;}
+#main1{height: 320px;float: left;width: 520px;
+float: left;padding: 2px 10px;
+background-repeat: no-repeat;margin: 2px 2px;}
+#left1{height: 310px;float: left;width: 520px;
+padding: 2px 2px;background-color:green;
+background: url(image/team6.jpg);
+background-repeat: no-repeat;margin: 2px 2px;}
+#left2{height: 310px;float: left;width: 520px;
+padding: 2px 10px;background-color:;
+
+background-repeat: no-repeat;margin: 2px 2px;}
+#main2{height: 380px;border:2px solid none;
+float: left;background-color:;width: 600px;
+margin: 2px;padding: 2px;}
+#main3{height: 420px;border:2px solid none;
+float: left;width: 600px;background: url(image/team7.jpg);
+background-repeat: no-repeat;margin: 2px;
+padding: 2px;}
+#list11{
+				width:200px;
+				height:288px;
+				float:left;
+				margin-left:70px;
+				border:2px solid none;
+			}
+#list12{
+				width:70px;
+				height:288px;
+				float:left;
+				margin-left: 120px;
+			}
+#next{height:600px;border: 2px solid none;
+background-color:#484891;}
+#next1{height: 568px;float: left;width: 520px;
+padding: 2px 10px;background-color:;
+background-repeat: no-repeat;margin: 2px 2px;}
+#next2{height: 238px;width: 580px;text-indent: 2em;
+margin: 2px;border:2px solid none;float: left;
+text-decoration: underline;line-height: 50px;
+background-color: #3C3C3C;background: url(image/NBA14.jpg);}
+#next3{height: 388px;border:2px solid none;
+float: left;background-color: ;width: 520px;
+margin:2px 20px;padding: 2px;}
+#footer{
+				width:2100px;
+				height:288px;
+			    background: url(image/back1.jpg);
+	background-repeat: repeat-x;
+				color:#8B2500;
+				border:1px solid grey;
+			}
+			#page1border{
+				width:500px;
+				height:40px;
+				margin:0px auto;
+				border-bottom:2px solid #8B2500;
+				margin-top:40px;
+			}
+			#footerpage1{
+				width:410px;
+				height:40px;
+				margin:0px auto;
+			}
+			#footerpage1 ul li{
+				display:inline;
+				font-size:14px;
+			}
+			.end{
+				font-size:13px;
+			}

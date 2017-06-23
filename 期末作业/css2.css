@@ -1,0 +1,94 @@
+*{margin:0px;padding:0px;}
+ul,li{list-style:none;padding:3px;}
+li strong{color: pink;}
+a{text-decoration: none;}
+a:link{color:#00FFFF;}
+a:visited{color:orange;}
+a:hover{color:#5B00AE;}
+a:active{color:red;}
+ul li{display: inline;}
+body{background-color:; }
+.top1{border:2px solid none;
+background: url(image/NBAfirst.jpg); 
+height: 300px;margin: 20px;padding: 2px;
+background-color: #460046;}
+#top2{          background-color: #28004D;
+				background-repeat:no-repeat;
+				height:40px;width: 2200px;}
+#main{height:460px;border: 2px solid none;
+background-color:black;}
+#main1{height: 400px;float: left;width: 520px;
+float: left;
+padding: 2px 10px;
+background-repeat: no-repeat;margin: 2px 2px;}
+#main2{height: 430px;border:2px solid none;
+float: left;background-color:#3A006F;width: 600px;
+margin: 2px;padding: 2px;background: url(image/Jordan.jpg);
+background-repeat: no-repeat;}
+#main3{height: 420px;border:2px solid none;
+float: left;font-style: italic;
+width: 600px;background-repeat: no-repeat;margin: 2px;
+padding: 2px;background-color: #3C3C3C;}
+.list11{
+				width:188px;
+				height:288px;
+				float:left;
+				margin-left:70px;
+				border:2px solid none;
+			}
+.list12{        color: 
+				width:50px;
+				height:288px;
+				float:left;
+				margin-left: 120px;
+			}
+#next{height:700px;border: 2px solid none;
+background-color: #3C3C3C;}
+#next1{height: 688px;float: left;width: 520px;
+
+padding: 2px 10px;background-color: ;
+background-repeat: no-repeat;margin: 2px 2px;}
+#left1{height: 310px;float: left;width: 520px;
+padding: 2px 2px;background-color:green;
+background: url(image/kobe.jpg);
+background-repeat: no-repeat;margin: 2px 2px;}
+#left2{height: 310px;float: left;width: 520px;
+padding: 2px 10px;background-color:orange;
+background: url(image/kobe2.jpg);
+background-repeat: no-repeat;margin: 2px 2px;}
+#next3{height: 580px;border:2px solid none;
+float: left;background-color:#3C3C3C;width: 720px;
+margin: 2px;padding: 2px;background: url(image/AI1.jpg);}
+#next2{height: 588px;width: 520px;text-indent: 2em;
+margin: 2px;border:2px solid none;float: left;
+text-decoration: underline;line-height: 50px;
+background-color: #3C3C3C;}
+
+
+#footer{
+				width:2100px;
+				height:288px;
+			    background: url(image/back6.jpg);
+	background-repeat: repeat-x;
+				color:#8B2500;
+				border:1px solid grey;
+			}
+			#page1border{
+				width:500px;
+				height:40px;
+				margin:0px auto;
+				border-bottom:2px solid #8B2500;
+				margin-top:40px;
+			}
+			#footerpage1{
+				width:410px;
+				height:40px;
+				margin:0px auto;
+			}
+			#footerpage1 ul li{
+				display:inline;
+				font-size:14px;
+			}
+			.end{
+				font-size:13px;
+			}

@@ -1,0 +1,87 @@
+*{margin:0px;padding:0px;}
+ul{text-align: center;}
+ul,li{list-style:none;padding:3px;}
+li strong{color: pink;}
+a{text-decoration: none;}
+a:link{color:#00FFFF;}
+a:visited{color:orange;}
+a:hover{color:#5B00AE;}
+a:active{color:red;}
+ul li{display: inline;}
+body{background-color:black;fon }
+.top1{border:2px solid none;
+background: url(image/NBA3.jpg); 
+height: 400px;margin: 2px;padding: 2px;
+background-color: #460046;}
+#top2{          background-color: #28004D;
+				background-repeat:no-repeat;
+				height:40px;width: 2200px;}
+#main{height:460px;border: 2px solid none;
+background-color: ;}
+#main1{height: 400px;float: left;width: 520px;
+background: url(image/NBA1.jpg);float: left;
+padding: 2px 10px;
+background-repeat: no-repeat;margin: 2px 2px;}
+#main2{height: 430px;border:2px solid none;
+float: left;background-color:#3A006F;width: 600px;
+margin: 2px;padding: 2px;}
+#main3{height: 420px;border:2px solid none;
+float: left;background: url(image/NBA13.jpg);
+width: 600px;
+background-repeat: no-repeat;margin: 2px;
+padding: 2px;}
+#list11{
+				width:200px;
+				height:288px;
+				float:left;
+				margin-left:70px;
+				border:2px solid none;
+			}
+#list12{
+				width:70px;
+				height:288px;
+				float:left;
+				margin-left: 120px;
+			}
+#next{height:700px;border: 2px solid none;
+background-color: #5151A2;}
+#next1{height: 756px;float: left;width: 520px;
+background: url(image/NBA11.jpg);float: left;
+padding: 2px 10px;
+background-repeat: no-repeat;margin: 2px 2px;}
+#next2{height: 666px;border:2px solid none;
+float: left;background-color:#FFBB77;width: 780px;
+margin: 2px;padding: 2px;background: url(image/back2.jpg);
+background-color: ;}
+#next3{height: 588px;width: 520px;background-color: ;
+margin: 2px;border:2px solid none;float: left;text-indent: 2em;
+text-decoration: underline;line-height: 50px;}
+
+
+#footer{
+				width:2100px;
+				height:288px;
+			    background: url(image/back1.jpg);
+	background-repeat: repeat-x;
+				color:#8B2500;
+				border:1px solid grey;
+			}
+			#page1border{
+				width:500px;
+				height:40px;
+				margin:0px auto;
+				border-bottom:2px solid #8B2500;
+				margin-top:40px;
+			}
+			#footerpage1{
+				width:410px;
+				height:40px;
+				margin:0px auto;
+			}
+			#footerpage1 ul li{
+				display:inline;
+				font-size:14px;
+			}
+			.end{
+				font-size:13px;
+			}
